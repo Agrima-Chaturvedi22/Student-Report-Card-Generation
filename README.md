@@ -1,27 +1,29 @@
 Project Title- Student Report Card Program
 
-
-Overview of the project- This is a small-scale, procedural command-line utility implemented in Python designed to automate the core academic calculation for an individual student. The project accepts basic student details and marks for three predefined subjects (English, Math, Science). Its primary function is to accurately calculate the total marks, determine the overall percentage, and assign a final letter grade based on a fixed grading scale. The program immediately displays a clean, formatted report card to the console, serving as a functional proof-of-concept for the calculation engine of a larger academic management system.
-
-
-Features- The program focuses on five core functions:Data Input (FR 4.1): Prompts the user to enter the student's name, roll number, and marks for English, Math, and Science.Calculation (FR 4.2): Accurately calculates the Total Marks (out of 300) and the Overall Percentage.Grade Determination (FR 4.3): Assigns a final letter grade using a fixed conditional scale:A+ ($\geq 90\%$), A ($\geq 80\%$), B ($\geq 70\%$), C ($\geq 60\%$), D ($\geq 50\%$), F ($< 50\%$).Report Output (FR 4.4): Prints a clearly formatted report card to the console, displaying all inputs and calculated results.Data Handling (FR 4.5): Processes subject scores as floating-point numbers to support non-integer marks.
+Project Summary- This is a procedural command-line tool developed in Python aimed at automating the essential academic computations for a single student. The project receives student information and scores for three specific subjects (English, Math, Science). Its main purpose is to compute the total marks calculate the overall percentage and allocate a final letter grade according to a set grading system. The program immediately displays a clean, formatted report card to the console, serving as a functional proof-of-concept for the calculation engine of a larger academic management system.
 
 
-Technologies/Tools Used-
-Category,Technology/Tool,Purpose
-Development Language,Python 3,"Used for its clear, procedural syntax and robust mathematical capabilities."
-Architecture,Procedural / Monolithic,Chosen for simplicity and rapid development of a single-purpose utility.
-Libraries/Dependencies,None,The program utilizes only the Python Standard Library (built-in functions).
-I/O,input() and print(),Standard Python built-in functions for console interaction.
+Features- The program focuses on five core functions:
+Data Input: Prompts the user to enter the student's name, roll number, and marks for English, Math, and Science.
+Calculation: Accurately calculates the Total Marks (out of 300) and the Overall Percentage.
+Grade Determination: Assigns a final letter grade using a fixed conditional scale:A+ ($\geq 90\%$), A ($\geq 80\%$), B ($\geq 70\%$), C ($\geq 60\%$), D ($\geq 50\%$), F ($< 50\%$).
+Report Output: Prints a clearly formatted report card to the console, displaying all inputs and calculated results.
+Data Handling: Processes subject scores as floating-point numbers to support non-integer marks.
 
 
-Steps to Install & Run the Project- Since the project uses only the Python Standard Library, installation is minimal.
- Prerequisites
-Ensure Python 3 (version 3.6 or newer) is installed on your operating system (Windows, macOS, or Linux).
- Running the Program
-Save the Code: Save the project code into a single file, for example, report_card.py.
-Open Terminal: Open your operating system's command prompt, terminal, or PowerShell.
-Navigate: Change the directory to where you saved the report_card.py file.
+Technologies/Tools Used: Python 3, Technology/Tool, Purpose Development Language,"Used for its robust mathematical capabilities and clear, procedural syntax."
+Procedural/Monolithic Architectureselected due to its ease of use and quick development of a single-purpose tool.
+Libraries and DependenciesNot at allThe Python Standard Library (built-in functions) is the only library used by the program.
+I/O, input(), and print() are standard Python built-in console interaction functions.
+
+
+How to Install & Run the project - Since this only uses Python Standard libraries installation is minimal.
+Prerequisites
+Make sure Python 3 (let’s say version 3.6 or higher) is installed on your computer (Windows, macOS or Linux).
+Running the Program
+Save the Code Save the project code in a file, report_card for instance. py.
+Open your terminal: Open prompt, terminal or PowerShell of your operating system.
+Navigate: cd to the directory where you saved report_card. py file.
 Execute: Run the program using the Python interpreter command:python report_card.py
 Follow Prompts: The program will begin execution, prompting you sequentially for the student's name, roll number, and the three subject scores.
 
@@ -35,11 +37,9 @@ Failing,40.0,30.0,45.0,115.0,38.33%,F,Test the failing band (<50%).
 
 
 Verification Steps
-Run the program (python report_card.py).
-Input the scores for one of the test cases above.
-Compare the program's output for Total Marks, Percentage, and Grade against the expected values in the table.
-If the calculated results match the expected results, the system is verified as working correctly.
-
+Run the program (python report_card. py).
+For one of the above test cases input scores.
+Check your program's output for Total Marks, Percentage and Grade with the above table value.
+If the computed values and expected values are found same, system is tested successfully.
 Navigate: Change the directory to where you saved the report_card.py file.
-
-Execute: Run the program using the Python interpreter command:
+Execute: Run the program using the Python interpreter command
