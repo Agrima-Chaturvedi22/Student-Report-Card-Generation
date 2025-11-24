@@ -2,21 +2,20 @@ Problem Statement- The foundational challenge addressed is the inaccuracy and in
 
 
 Scope of the project- The project's scope is narrow and focused on demonstrating core calculation logic within a procedural, command-line environment.
-Area,Scope Definition
-Functionality,"Limited to accepting input, performing calculations, applying a fixed grading scale, and printing a report."
+Area,Scope Definition Functionality,"Limited to accepting input, performing calculations, applying a fixed grading scale, and printing a report."
 Data Persistence,Out of Scope (Transient): Data is processed in memory only and is lost upon program termination (No database integration).
 User Interface,Out of Scope (Console only): Limited to basic text input/output via the command line.
 Customization,Out of Scope: The number of subjects (fixed at three) and the grading scale are hardcoded.
 
 
 Target Users- The primary target user for this console utility is:
-Students or Developers Learning Programming: Individuals using the program as a proof-of-concept or learning exercise to master fundamental programming concepts like data types, conditional logic (if/elif), and procedural flow.
-Educators/Administrators: For quick, one-off calculations to verify manually calculated results, needing a high degree of calculation accuracy.
+A Student or Developer Learning Programming: A programmer using the program as proof of concept or an exercise to learn basic programming concepts such as data types, conditional logic (if/elif), and procedural flow.  An Educator/Administrator: Quick calculations or one-off computational utility to verify results they have manually calculated with a high degree of accuracy.
 
 
-High-Level Features- These features represent the core functions and quality attributes of the program:
-Accurate Calculation Engine: Provides 100% accurate total marks and percentage calculation based on standard arithmetic rules.
-Automated Grading: Instantly determines the final letter grade (A+, A, B, C, D, F) based on a fixed, hardcoded percentage scale.
-Console I/O: Provides clear, sequential input prompts and a distinctly formatted report card output in the terminal.
-Portability: Runs on any standard Python 3 environment without requiring any external dependencies or libraries.
+High-Level Characteristics- These characteristics represent the essential functions and quality attributes of software:
+Accurate Calculation Engine: Gives 100% accurate total marks and percentage calculation, based on standard arithmetic rules.
+Automated Grading: Instantly provides the letter grade (A+, A, B, C, D, F) based on a fixed, hardcoded percentage scale.
+Console I/O: Provides well-formatted, sequential version of input prompts and unit test style report card output to the terminal.
+Portability: Can run in any standard Python 3 environment with no additional dependencies or libraries. 
+
 
